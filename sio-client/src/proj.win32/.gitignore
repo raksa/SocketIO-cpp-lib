@@ -1,0 +1,7 @@
+Debug.win32
+Debug
+Release.win32
+Release
+.vs
+*.VC.db
+*.VC.opendb

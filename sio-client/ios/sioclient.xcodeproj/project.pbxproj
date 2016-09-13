@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30DEEB141D8860FB00C10674 /* sio_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30DEEB0F1D8860FB00C10674 /* sio_client.cpp */; };
+		30DEEB151D8860FB00C10674 /* sio_socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30DEEB121D8860FB00C10674 /* sio_socket.cpp */; };
+		30DEEB1A1D88610B00C10674 /* sio_client_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30DEEB161D88610B00C10674 /* sio_client_impl.cpp */; };
+		30DEEB1B1D88610B00C10674 /* sio_packet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30DEEB181D88610B00C10674 /* sio_packet.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		30DEEAD81D885B9F00C10674 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		30DEEADA1D885B9F00C10674 /* libsioclient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsioclient.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DEEB0F1D8860FB00C10674 /* sio_client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sio_client.cpp; path = ../../src/sio_client.cpp; sourceTree = "<group>"; };
+		30DEEB101D8860FB00C10674 /* sio_client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sio_client.h; path = ../../src/sio_client.h; sourceTree = "<group>"; };
+		30DEEB111D8860FB00C10674 /* sio_message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sio_message.h; path = ../../src/sio_message.h; sourceTree = "<group>"; };
+		30DEEB121D8860FB00C10674 /* sio_socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sio_socket.cpp; path = ../../src/sio_socket.cpp; sourceTree = "<group>"; };
+		30DEEB131D8860FB00C10674 /* sio_socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sio_socket.h; path = ../../src/sio_socket.h; sourceTree = "<group>"; };
+		30DEEB161D88610B00C10674 /* sio_client_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sio_client_impl.cpp; path = ../../src/internal/sio_client_impl.cpp; sourceTree = "<group>"; };
+		30DEEB171D88610B00C10674 /* sio_client_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sio_client_impl.h; path = ../../src/internal/sio_client_impl.h; sourceTree = "<group>"; };
+		30DEEB181D88610B00C10674 /* sio_packet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sio_packet.cpp; path = ../../src/internal/sio_packet.cpp; sourceTree = "<group>"; };
+		30DEEB191D88610B00C10674 /* sio_packet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sio_packet.h; path = ../../src/internal/sio_packet.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30DEEAD71D885B9F00C10674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30DEEAD11D885B9E00C10674 = {
+			isa = PBXGroup;
+			children = (
+				30DEEADC1D885B9F00C10674 /* sioclient */,
+				30DEEADB1D885B9F00C10674 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30DEEADB1D885B9F00C10674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30DEEADA1D885B9F00C10674 /* libsioclient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30DEEADC1D885B9F00C10674 /* sioclient */ = {
+			isa = PBXGroup;
+			children = (
+				30DEEB0F1D8860FB00C10674 /* sio_client.cpp */,
+				30DEEB101D8860FB00C10674 /* sio_client.h */,
+				30DEEB111D8860FB00C10674 /* sio_message.h */,
+				30DEEB121D8860FB00C10674 /* sio_socket.cpp */,
+				30DEEB131D8860FB00C10674 /* sio_socket.h */,
+				30DEEB0E1D8860A100C10674 /* internal */,
+			);
+			path = sioclient;
+			sourceTree = "<group>";
+		};
+		30DEEB0E1D8860A100C10674 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				30DEEB161D88610B00C10674 /* sio_client_impl.cpp */,
+				30DEEB171D88610B00C10674 /* sio_client_impl.h */,
+				30DEEB181D88610B00C10674 /* sio_packet.cpp */,
+				30DEEB191D88610B00C10674 /* sio_packet.h */,
+			);
+			name = internal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30DEEAD91D885B9F00C10674 /* sioclient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30DEEAE31D885B9F00C10674 /* Build configuration list for PBXNativeTarget "sioclient" */;
+			buildPhases = (
+				30DEEAD61D885B9F00C10674 /* Sources */,
+				30DEEAD71D885B9F00C10674 /* Frameworks */,
+				30DEEAD81D885B9F00C10674 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sioclient;
+			productName = sioclient;
+			productReference = 30DEEADA1D885B9F00C10674 /* libsioclient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30DEEAD21D885B9E00C10674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = raksa;
+				TargetAttributes = {
+					30DEEAD91D885B9F00C10674 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 30DEEAD51D885B9E00C10674 /* Build configuration list for PBXProject "sioclient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30DEEAD11D885B9E00C10674;
+			productRefGroup = 30DEEADB1D885B9F00C10674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30DEEAD91D885B9F00C10674 /* sioclient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30DEEAD61D885B9F00C10674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DEEB1A1D88610B00C10674 /* sio_client_impl.cpp in Sources */,
+				30DEEB1B1D88610B00C10674 /* sio_packet.cpp in Sources */,
+				30DEEB151D8860FB00C10674 /* sio_socket.cpp in Sources */,
+				30DEEB141D8860FB00C10674 /* sio_client.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		30DEEAE11D885B9F00C10674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30DEEAE21D885B9F00C10674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30DEEAE41D885B9F00C10674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/Users/raksa/sio-c-lib/websocketpp",
+					"/Users/raksa/sio-c-lib/rapidjson",
+					"/Users/raksa/sio-c-lib/boost",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		30DEEAE51D885B9F00C10674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/Users/raksa/sio-c-lib/websocketpp",
+					"/Users/raksa/sio-c-lib/rapidjson",
+					"/Users/raksa/sio-c-lib/boost",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30DEEAD51D885B9E00C10674 /* Build configuration list for PBXProject "sioclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DEEAE11D885B9F00C10674 /* Debug */,
+				30DEEAE21D885B9F00C10674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30DEEAE31D885B9F00C10674 /* Build configuration list for PBXNativeTarget "sioclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DEEAE41D885B9F00C10674 /* Debug */,
+				30DEEAE51D885B9F00C10674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30DEEAD21D885B9E00C10674 /* Project object */;
+}
