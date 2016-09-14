@@ -1,12 +1,12 @@
 Current testing usage with cocos2d-x game engine
 
-
+```
+boost-1.50.0
+```
 ## win32
 
 ```
 msvc-12.0 (Microsoft Visual Studio 2013)
-boost-1.61.0
-
 project dependencies in ./sio-client/src/proj.win32
 
 ```
@@ -15,8 +15,6 @@ project dependencies in ./sio-client/src/proj.win32
 
 ```
 arm: ndk-r10e
-boost-1.50.0
-
 ndk-module in ./sio-client/android
 
 ```
@@ -26,8 +24,6 @@ ndk-module in ./sio-client/android
 ```
 xcode-7.3.1
 iOS-9.3
-boost-1.50.0
-
 static-lib in ./sio-client/ios
 
 ```
