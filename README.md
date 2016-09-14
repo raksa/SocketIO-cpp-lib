@@ -7,7 +7,7 @@ boost-1.50.0
 
 ```
 msvc-12.0 (Microsoft Visual Studio 2013)
-project dependencies in ./sio-client/src/proj.win32
+project dependencies in ./sio-client/win32/proj.win32
 
 ```
 
@@ -24,7 +24,8 @@ ndk-module in ./sio-client/android
 ```
 xcode-7.3.1
 iOS-9.3
-static-lib in ./sio-client/ios
+sioclient.xcodeproj
+project dependencies in ./sio-client/ios/sioclient.xcodeproj
 
 ```
 
