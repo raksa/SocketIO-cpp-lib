@@ -39,6 +39,4 @@ References
 
 Others
 -----------------------
-* license MIT, free use anything anywhere
-* created by Raksa Eng
 * welcome for any help
